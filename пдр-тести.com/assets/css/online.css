@@ -1,0 +1,322 @@
+.pdd-tickets {
+  margin-bottom: 20px
+}
+
+.pdd-tickets,.pdd-tickets__category {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex
+}
+
+.pdd-tickets__category {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 169px;
+  -ms-flex: 0 0 169px;
+  flex: 0 0 169px;
+  padding: 0 20px 20px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #4a90e2
+}
+
+@media (min-width: 1280px) {
+  .pdd-tickets__category {
+      -webkit-flex-basis:176px;
+      -ms-flex-preferred-size: 176px;
+      flex-basis: 176px
+  }
+}
+
+.pdd-tickets__category-title {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  font-size: 50px;
+  line-height: 80px;
+  color: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center
+}
+
+.pdd-tickets__category-change {
+  height: 40px;
+  width: 100%
+}
+
+.pdd-tickets__category-change  a {
+  color: #1b75cc;
+  display: block;
+  padding: 3px 20px;
+  height: 44px;
+  line-height: 20px;
+  font-size: 13px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 2px;
+  background: #fff;
+}
+
+.pdd-tickets__list {
+  overflow: hidden;
+  margin-bottom: -10px
+}
+
+.pdd-tickets__list-item {
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 2px;
+  background: #e0e0e0;
+  color: #1b75cc;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color .2s linear;
+}
+
+.pdd-tickets__list-item:hover {
+  text-decoration: none;
+}
+
+/* theme progress */
+.progress {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.progress-value {
+  position: absolute;
+  right: 0;
+  left: 0;
+  color: #000;
+}
+
+/* theme */
+
+.btn-resource {
+  position: relative;
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin-top: 10px;
+  text-decoration: none !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 10px 40px 0 rgba(99,117,132,0.15),0 2px 9px 0 rgba(62,57,107,0.06);
+  -moz-box-shadow: 0 10px 40px 0 rgba(99,117,132,0.15),0 2px 9px 0 rgba(62,57,107,0.06);
+  -ms-box-shadow: 0 10px 40px 0 rgba(99,117,132,0.15),0 2px 9px 0 rgba(62,57,107,0.06);
+  -o-box-shadow: 0 10px 40px 0 rgba(99,117,132,0.15),0 2px 9px 0 rgba(62,57,107,0.06);
+  box-shadow: 0 10px 40px 0 rgba(99,117,132,0.15),0 2px 9px 0 rgba(62,57,107,0.06);
+  padding: 10px;
+  transition: all .5s;
+  background: white;
+  position: relative;
+  
+}
+
+@media (min-width: 992px) {
+  .pdd-theme .col-md-4:not(:first-child) {
+    padding-left: 5px;
+  }
+
+  .btn-resource {
+    margin: 10px 5px;
+    min-height: 150px;
+  }
+}
+
+
+.btn-resource:hover {
+  -webkit-box-shadow: 0 16px 32px 0 rgba(62,57,107,0.18),0 0 0 transparent;
+  -moz-box-shadow: 0 16px 32px 0 rgba(62,57,107,0.18),0 0 0 transparent;
+  -ms-box-shadow: 0 16px 32px 0 rgba(62,57,107,0.18),0 0 0 transparent;
+  -o-box-shadow: 0 16px 32px 0 rgba(62,57,107,0.18),0 0 0 transparent;
+  cursor: pointer;
+  box-shadow: 0 16px 32px 0 rgba(62,57,107,0.18),0 0 0 transparent;
+  -webkit-transform: translate(0,-5px);
+  -ms-transform: translate(0,-5px);
+  transform: translate(0,-5px)
+}
+
+.btn-resource .heading {
+  width: 100%;
+  padding: 20px;
+  /*background-color: #fff;*/
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  height: 100px;
+}
+
+.btn-resource h3,#content .btn-resource h3 {
+  font-size: 18px !important;
+  line-height: 18px;
+  color: #409eff;
+  padding: 0;
+  font-weight: bold !important;
+  margin: 0 !important;
+  text-shadow: 0 1px 0 #fff;
+  transition: all .5s;
+}
+
+.btn-resource .content {
+  width: 100%;
+  padding: 0 20px 14px
+}
+
+.btn-resource .content .insider {
+  padding: 0;
+  margin: 0
+}
+
+.btn-resource p,#content .btn-resource p {
+  padding: 0;
+  color: #111;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  text-align: left;
+  margin: 0
+}
+
+.btn-resource .content {
+  background-color: transparent !important;
+  padding: 0 20px 14px !important
+}
+
+/* theme icons */
+.btn-resource .heading i {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  background: url(../img/pdd_categories_icons.png?v=1.1) 0 0 no-repeat;
+  left: 6px;
+  top: 31px;
+}
+
+.btn-resource .heading .traffic_signs{background-position:0 0}
+.btn-resource .heading .general{background-position:0 -32px}
+.btn-resource .heading .road_surface_marking{background-position:0 -64px}
+.btn-resource .heading .signals{background-position:0 -96px}
+.btn-resource .heading .drive{background-position:0 -128px}
+.btn-resource .heading .speed{background-position:0 -160px}
+.btn-resource .heading .overtaking{background-position:0 -192px}
+.btn-resource .heading .stop{background-position:0 -224px}
+.btn-resource .heading .crossroads{background-position:0 -256px}
+.btn-resource .heading .lights_horn{background-position:0 -288px}
+.btn-resource .heading .maintenance{background-position:0 -320px}
+.btn-resource .heading .safe_drive{background-position:0 -352px}
+.btn-resource .heading .first_aid{background-position:0 -384px}
+.btn-resource .heading .responsibility{background-position:0 -416px}
+.btn-resource .heading .drive_order{background-position:0 -448px}
+.btn-resource .heading .bus{background-position:0 -480px}
+.btn-resource .heading .tow{background-position:0 -512px}
+.btn-resource .heading .special_signals{background-position:0 -544px}
+.btn-resource .heading .highway{background-position:0 -576px}
+.btn-resource .heading .training_bicycle{background-position:0 -608px}
+.btn-resource .heading .residential_area{background-position:0 -640px}
+.btn-resource .heading .railway{background-position:0 -672px}
+.btn-resource .heading .crossings{background-position:0 -704px}
+.btn-resource .heading .transportation{background-position:0 -736px}
+.btn-resource .heading .drivers_responsibility{background-position:0 -768px}
+.btn-resource .heading .emergency{background-position:0 -800px}
+.btn-resource .heading .hard{background-position:0 -832px}
+
+/* ribbon */
+.ribbon {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  position: absolute;
+
+  top: -10px;
+  right: -10px;
+  z-index: 6;
+}
+.ribbon::before,
+.ribbon::after {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  display: block;
+  border: 5px solid #A9A9A9;
+
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.ribbon::before {
+  top: 0;
+  left: 0;
+}
+.ribbon::after {
+  bottom: 0;
+  right: 0;
+}
+.ribbon span {
+  position: absolute;
+  display: block;
+  width: 175px;
+  padding: 15px 0;
+  background-color: #D3D3D3;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  color: #fff;
+  font: 700 18px/1 'Lato', sans-serif;
+  text-shadow: 0 1px 1px rgba(0,0,0,.2);
+  text-transform: uppercase;
+  text-align: center;
+
+  left: -25px;
+  top: 30px;
+  transform: rotate(45deg);
+}
+
+
+/* test status by color */
+
+.pdd-tickets__list-item.passed, .btn-resource.passed .ribbon span {
+  background-color: #2ECC40 !important;
+  color: #000 !important;
+}
+.pdd-tickets__list-item.failed, .btn-resource.failed .ribbon span  {
+  background-color: #FF4136 !important;
+  color: #fff !important;
+}
+.pdd-tickets__list-item.paused, .btn-resource.paused .ribbon span  {
+  background-color: #FFDC00 !important;
+  color: #000 !important;
+}
+
+.btn-resource.paused .heading i {
+  background-position-x: -19px;
+}
+
+.btn-resource.failed .heading i {
+  background-position-x: -38px;
+}
+
+.btn-resource.passed .heading i {
+  background-position-x: -57px;
+}
